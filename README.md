@@ -19,7 +19,7 @@ In my project, the following were used:
 
  - `GND` pin number 38 // `GND`
  - `VCC` pin number 36 // `3V3(OUT)`
- - `DATA` pin number 22 // `GP22`
+ - `DATA` pin number 29 // `GP22`
 
 
 # How to run the code on a Raspberry Pi Pico...
