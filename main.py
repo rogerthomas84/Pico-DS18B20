@@ -57,7 +57,7 @@ while True:
             temp = "{:.2f}".format(tempC)
             payload = {
                 "data": temp,
-                "device": "pico-office-radiator-pipe",
+                "device": secrets.DEVICE_KEY,
                 "ip": connection.get_ip()
             }
             send_data(payload)
